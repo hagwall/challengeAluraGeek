@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./AluraGeek.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>&hearts; &hearts; &hearts;AluraGeek</h1>
+    </header>
+    <main>
+      <section class="contenedor_productos">
+        <h1>MIS PRODUCTOS</h1>
+        <div data-product class="contenedor_card">
+           <!-- <div class="card">
+            <img src="./img/stormtrooper.jpg" alt="" />
+            <div class="card_container_info">
+              <p>Nombre</p>
+              <div class="card_container_value">
+                <p>$ 00.00</p>
+                <button class="delete-button" data-id="${id}">
+                <img src="./img/iconBorrar.png" alt="Eliminar" />
+              </button>
+              </div>
+            </div>
+          </div> -->
+          
+        </div>
+      </section>
+      <section class="seccion_formulario">
+        <h1>AGREGAR PRODUCTOS</h1>
+        <div class="contenedor_formulario" data-formulario>
+          <form data-form action="">
+            <input type="text" placeholder="Nombre..." data-nombre/>
+            <input type="text" placeholder="precio..." data-precio/>
+            <input type="text" placeholder="imagen..." data-imagen/>
+
+            <div class="container_boton">
+              <button type="submit" class="button-submit" id="button">Enviar</button>
+              <button type="reset" class="button-clear" id="button">Limpiar</button>
+            </div>
+          </form>
+          
+        </div>
+      </section>
+    </main>
+    <footer class="container_footer">
+      <h2>AluraGeek</h2>
+      <p>DESARROLLADO POR HAGEO ALVARADO A.</p>
+      <p>ALURA LATAM - 2024</p>
+    </footer>
+
+    <script src="js/controllers/main.js" type="module"></script>
+    <script src="js/services/crearProducto.js" type="module"></script>
+    <!-- <script src="./js/services/product-service.js"></script> -->
+  </body>
+</html>
